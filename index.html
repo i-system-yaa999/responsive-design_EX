@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="frame">
+    <!--  -->
+    <header class="header">
+      <h1 class="title">Tecool</h1>
+      <nav class="nav">
+        <ul>
+          <li class="nav-item">Item</li>
+          <li class="nav-item">Topics</li>
+          <li class="nav-item">Style</li>
+          <li class="nav-item">About</li>
+        </ul>
+      </nav>
+      <button class="nav-button" type="button" onclick="navFunc()"></button>
+      <p class="catch">呼び覚ませ</p>
+      <p class="catch-aux">2021 Spring & Summer</p>
+    </header>
+    <!--  -->
+    <section class="outer-frame">
+      <div class="inner-frame">
+        <img src="./img/topics-img1.png" alt="">
+        <h2>Life Style</h2>
+        <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+      </div>
+      <div class="inner-frame">
+        <img src="./img/topics-img2.png" alt="">
+        <h2>Important</h2>
+        <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+      </div>
+      <div class="inner-frame">
+        <img src="./img/topics-img3.png" alt="">
+        <h2>Culture</h2>
+        <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+      </div>
+    </section>
+    <section class="style-frame">
+      <h2>Styles</h2>
+      <div class="style-inner-frame">
+        <img src="./img/styles-img1.png" alt="" id="image1">
+        <img src="./img/styles-img2.png" alt="" id="image2">
+        <img src="./img/styles-img3.png" alt="" id="image3">
+        <img src="./img/styles-img4.png" alt="" id="image4">
+        <img src="./img/styles-img5.png" alt="" id="image5">
+        <img src="./img/styles-img6.png" alt="" id="image6">
+      </div>
+    </section>
+    <!--  -->
+    <section class="about-frame">
+      <div class="about-left-frame">
+        <img src="./img/about.png" alt="">
+      </div>
+      <div class="about-right-frame">
+        <p>Make your World</p>
+        <h2>個性が出せる</h2>
+        <h2>世界に</h2>
+        <p>ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。</p>
+        <p>ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。</p>
+        <div class="about-link">
+          <a href="">Aboutページへ</a>
+      </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <small class="copyright">&copy 2021 estra. inc</small>
+    </footer>
+  </div>
+</body>
+
+  <script>
+    function navFunc() {
+      document.querySelector('html').classList.toggle('open');
+    }
+  </script>
+
+</html>
